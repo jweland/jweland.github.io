@@ -15,8 +15,9 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #277c9e;
+    background-color: #4682b4;
     color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header h1 {
