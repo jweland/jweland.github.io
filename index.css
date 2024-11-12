@@ -5,9 +5,9 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: right;
     padding: 20px;
     background-color: #4682b4;
     color: #fff;
-    height: auto;
+    height: 80%;
 }
