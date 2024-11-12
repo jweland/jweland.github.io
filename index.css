@@ -1,10 +1,10 @@
 body {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
     margin: 0;
-    background-color: #f0f0f0; /* Light background for contrast */
+    background-color: #f0f0f0;
 }
 
 header {
