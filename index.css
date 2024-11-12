@@ -9,6 +9,7 @@ body {
   }
   
   .content-box {
+    margin-top: -5%;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
@@ -17,7 +18,6 @@ body {
   
   h1 {
     font-size: 80px;
-
   }
   
   p {
@@ -28,7 +28,7 @@ body {
     max-width: 300px; 
     height: auto;
     margin-left: 12%;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   
 /* Navigation Bar */
