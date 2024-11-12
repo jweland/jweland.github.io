@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
 }
@@ -10,4 +9,5 @@ header {
     padding: 20px;
     background-color: #4682b4;
     color: #fff;
+    height: auto;
 }
