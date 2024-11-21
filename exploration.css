@@ -1,0 +1,120 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #A3CAE9;
+    color: rgb(231, 228, 228);
+  }
+
+/* Navigation Bar */
+  .back-navbar{
+    background-color: #4682b4;
+    width: 100%;
+    height: 8%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #0b2a44;
+    font-weight: 600;
+  }
+  
+  .navbar a:hover {
+    color: #90c9f2;
+  }
+
+  .navbar a.active {
+    color: #f8f9f9;
+  }
+
+  .navbar-name {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    padding-left: 30px;
+    color: #0b2a44;
+    margin-left: 0;
+  }
+
+/* Blog Header Box */
+.contact-box {
+    margin-top: 5%;
+    margin-bottom: -2%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0b2a44;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.date {
+    font-size: 14px;
+    color: #4682b4;
+    font-weight: bold;
+}
+
+.section-box {
+    max-width: 800px;
+    margin-top: 2%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-image {
+    width: 100%; /* Make the image stretch across the full width of the section */
+    max-width: 800px; /* Set a max width to prevent it from being too wide */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    display: block; /* Remove any inline display properties */
+    margin-top: 20px; /* Add some space above the image */
+    margin-bottom: 20px; /* Add some space below the image */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a nice effect */
+}
+
+.section-box h2 {
+    border-bottom: 2px solid #4682b4;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #0b2a44;
+}
+
+.section-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b2a44;
+}
+
