@@ -95,14 +95,14 @@ body {
 }
 
 .section-image {
-    width: 100%; /* Make the image stretch across the full width of the section */
-    max-width: 800px; /* Set a max width to prevent it from being too wide */
-    height: auto; /* Ensure the image maintains its aspect ratio */
-    display: block; /* Remove any inline display properties */
-    margin-top: 20px; /* Add some space above the image */
-    margin-bottom: 20px; /* Add some space below the image */
-    border-radius: 8px; /* Optional: Add rounded corners to the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a nice effect */
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .section-box h2 {
