@@ -1,6 +1,6 @@
 import './Content.css';
 import profilePic from "../../assets/Weland_Jillian.jpg";
-import resumePDF from '../../assets/JillianWelandResume.pdf';
+import resumePDF from "../../assets/JillianWelandResume.pdf";
 import { Link } from 'react-router-dom';
 
 function Content() {
