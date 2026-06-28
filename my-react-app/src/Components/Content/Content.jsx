@@ -33,11 +33,11 @@ function Content() {
                 <div className="about-boxes">
                 <div className="about-box">
                     <h3>🎓 Education</h3>
-                    <p>Junior Computer Science major at the University of Nebraska–Lincoln, enrolled in the Jeffrey S. Raikes School, with minors in Business and Mathematics.</p>
+                    <p>Senior Computer Science major at the University of Nebraska–Lincoln, enrolled in the Jeffrey S. Raikes School, with minors in Business and Mathematics.</p>
                 </div>
                 <div className="about-box">
                     <h3>💼 Internships</h3>
-                    <p>Completed 3 tech internships focused on software development and product engineering.</p>
+                    <p>Completed 4 tech internships focused on software development and product engineering.</p>
                 </div>
                 <div className="about-box">
                     <h3>🎯 Hobbies</h3>
